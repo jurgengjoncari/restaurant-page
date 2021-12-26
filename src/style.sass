@@ -1,0 +1,51 @@
+$dark: rgb(53, 54, 58)
+$odin: rgb(206, 151, 62)
+html
+    margin: 0
+    height: 100%
+    body
+        background-color: $dark
+        color: white
+        margin: 0
+        height: 100%
+        display: flex
+        flex-direction: column
+        > div
+            width: 90ch
+            margin: auto
+
+#toolbar
+    padding: 5px 10px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    img
+        height: 70px
+    #tabs
+        button
+            padding: 5px
+            margin: 5px
+            font-size: large
+            color: white
+            border: 0
+            background-color: $dark
+            &:hover
+                cursor: pointer
+
+#content
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    flex-grow: 1
+    > div
+        background-color: $dark
+    a
+        color: $odin
+    // dt
+    //     text-align: center
+    // dd
+    //     text-align: center
+    //     margin-left: 0
+    address
+        text-align: center
