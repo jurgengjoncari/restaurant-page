@@ -28,6 +28,40 @@ ___CSS_LOADER_EXPORT___.push([module.id, "#banner {\n  width: 100vw;\n  min-widt
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/navbar/style.sass":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/navbar/style.sass ***!
+  \************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
+// Imports
+
+
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/Norse.otf */ "./src/fonts/Norse.otf"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/Norsebold.otf */ "./src/fonts/Norsebold.otf"), __webpack_require__.b);
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n  font-family: \"Norse\";\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format(\"opentype\"), url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format(\"opentype\");\n}\n#tabs button {\n  padding: 5px;\n  margin: 5px;\n  font-size: large;\n  color: white;\n  border: 0;\n  background-color: #35363a;\n}\n#tabs button:hover {\n  cursor: pointer;\n}\n\n#content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  flex-grow: 1;\n}\n#content > div {\n  background-color: #35363a;\n}\n#content h1 {\n  font-family: \"Norse\";\n}\n#content a {\n  color: #ce973e;\n}\n#content address {\n  text-align: center;\n}", "",{"version":3,"sources":["webpack://./src/navbar/style.sass"],"names":[],"mappings":"AAIA;EACI,oBAAA;EACA,2HAAA;AAHJ;AAKI;EACI,YAAA;EACA,WAAA;EACA,gBAAA;EACA,YAAA;EACA,SAAA;EACA,yBAdD;AAWP;AAIQ;EACI,eAAA;AAFZ;;AAIA;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;AADJ;AAEI;EACI,yBAzBD;AAyBP;AACI;EACI,oBAAA;AACR;AAAI;EACI,cA5BD;AA8BP;AAII;EACI,kBAAA;AAFR","sourcesContent":["$dark: rgb(53, 54, 58)\n$odin: rgb(206, 151, 62)\n$norse-font-path: \"../fonts\"\n\n@font-face \n    font-family: \"Norse\"\n    src: url(\"#{$norse-font-path}/Norse.otf\") format(\"opentype\"), url(\"#{$norse-font-path}/Norsebold.otf\") format(\"opentype\")\n#tabs\n    button\n        padding: 5px\n        margin: 5px\n        font-size: large\n        color: white\n        border: 0\n        background-color: $dark\n        &:hover\n            cursor: pointer\n\n#content\n    display: flex\n    flex-direction: column\n    justify-content: center\n    align-items: center\n    flex-grow: 1\n    > div\n        background-color: $dark\n    h1\n        font-family: 'Norse'\n    a\n        color: $odin\n    // dt\n    //     text-align: center\n    // dd\n    //     text-align: center\n    //     margin-left: 0\n    address\n        text-align: center\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.sass":
 /*!*****************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.sass ***!
@@ -48,7 +82,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "html {\n  margin: 0;\n  height: 100%;\n}\nhtml body {\n  background-color: #35363a;\n  color: white;\n  margin: 0;\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n}\nhtml body > div {\n  width: 90ch;\n  margin: auto;\n}\n\n#toolbar {\n  padding: 5px 10px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n#toolbar img {\n  height: 70px;\n}\n#toolbar #tabs button {\n  padding: 5px;\n  margin: 5px;\n  font-size: large;\n  color: white;\n  border: 0;\n  background-color: #35363a;\n}\n#toolbar #tabs button:hover {\n  cursor: pointer;\n}\n\n#content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  flex-grow: 1;\n}\n#content > div {\n  background-color: #35363a;\n}\n#content a {\n  color: #ce973e;\n}\n#content address {\n  text-align: center;\n}", "",{"version":3,"sources":["webpack://./src/style.sass"],"names":[],"mappings":"AAEA;EACI,SAAA;EACA,YAAA;AADJ;AAEI;EACI,yBAND;EAOC,YAAA;EACA,SAAA;EACA,YAAA;EACA,aAAA;EACA,sBAAA;AAAR;AACQ;EACI,WAAA;EACA,YAAA;AACZ;;AACA;EACI,iBAAA;EACA,aAAA;EACA,8BAAA;EACA,mBAAA;AAEJ;AADI;EACI,YAAA;AAGR;AADQ;EACI,YAAA;EACA,WAAA;EACA,gBAAA;EACA,YAAA;EACA,SAAA;EACA,yBA9BL;AAiCP;AAFY;EACI,eAAA;AAIhB;;AAFA;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;AAKJ;AAJI;EACI,yBAzCD;AA+CP;AALI;EACI,cA1CD;AAiDP;AADI;EACI,kBAAA;AAGR","sourcesContent":["$dark: rgb(53, 54, 58)\n$odin: rgb(206, 151, 62)\nhtml\n    margin: 0\n    height: 100%\n    body\n        background-color: $dark\n        color: white\n        margin: 0\n        height: 100%\n        display: flex\n        flex-direction: column\n        > div\n            width: 90ch\n            margin: auto\n\n#toolbar\n    padding: 5px 10px\n    display: flex\n    justify-content: space-between\n    align-items: center\n    img\n        height: 70px\n    #tabs\n        button\n            padding: 5px\n            margin: 5px\n            font-size: large\n            color: white\n            border: 0\n            background-color: $dark\n            &:hover\n                cursor: pointer\n\n#content\n    display: flex\n    flex-direction: column\n    justify-content: center\n    align-items: center\n    flex-grow: 1\n    > div\n        background-color: $dark\n    a\n        color: $odin\n    // dt\n    //     text-align: center\n    // dd\n    //     text-align: center\n    //     margin-left: 0\n    address\n        text-align: center\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "html {\n  margin: 0;\n  height: 100%;\n}\nhtml body {\n  background-color: #35363a;\n  color: white;\n  margin: 0;\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n}\nhtml body > div {\n  width: 90ch;\n  margin: auto;\n}\n\n#toolbar {\n  padding: 5px 10px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n#toolbar img {\n  height: 70px;\n}", "",{"version":3,"sources":["webpack://./src/style.sass"],"names":[],"mappings":"AACA;EACI,SAAA;EACA,YAAA;AAAJ;AACI;EACI,yBALD;EAMC,YAAA;EACA,SAAA;EACA,YAAA;EACA,aAAA;EACA,sBAAA;AACR;AAAQ;EACI,WAAA;EACA,YAAA;AAEZ;;AAAA;EACI,iBAAA;EACA,aAAA;EACA,8BAAA;EACA,mBAAA;AAGJ;AAFI;EACI,YAAA;AAIR","sourcesContent":["$dark: rgb(53, 54, 58)\nhtml\n    margin: 0\n    height: 100%\n    body\n        background-color: $dark\n        color: white\n        margin: 0\n        height: 100%\n        display: flex\n        flex-direction: column\n        > div\n            width: 90ch\n            margin: auto\n\n#toolbar\n    padding: 5px 10px\n    display: flex\n    justify-content: space-between\n    align-items: center\n    img\n        height: 70px\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -167,6 +201,45 @@ module.exports = function (cssWithMappingToString) {
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    options = {};
+  }
+
+  if (!url) {
+    return url;
+  }
+
+  url = String(url.__esModule ? url.default : url); // If url is already wrapped in quotes, remove them
+
+  if (/^['"].*['"]$/.test(url)) {
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+
+  return url;
+};
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/runtime/sourceMaps.js":
 /*!************************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/sourceMaps.js ***!
@@ -224,6 +297,23 @@ var ___HTML_LOADER_IMPORT_0___ = __webpack_require__(/*! ./home-isometric-eebc11
 // Module
 var ___HTML_LOADER_REPLACEMENT_0___ = ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___(___HTML_LOADER_IMPORT_0___);
 var code = "<img\n  id=\"banner\"\n  src=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\"\n/>\n<h1>The Odin Restaurant</h1>\n<p>Welcome to our restaurant!</p>\n";
+// Exports
+module.exports = code;
+
+/***/ }),
+
+/***/ "./src/index.html":
+/*!************************!*\
+  !*** ./src/index.html ***!
+  \************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// Imports
+var ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___ = __webpack_require__(/*! ../node_modules/html-loader/dist/runtime/getUrl.js */ "./node_modules/html-loader/dist/runtime/getUrl.js");
+var ___HTML_LOADER_IMPORT_0___ = __webpack_require__(/*! ./odin-logo.svg */ "./src/odin-logo.svg");
+// Module
+var ___HTML_LOADER_REPLACEMENT_0___ = ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___(___HTML_LOADER_IMPORT_0___);
+var code = "<div id=\"toolbar\">\n  <img src=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\" />\n  <nav id=\"tabs\">\n    <button id=\"home\">Home</button>\n    <button id=\"menu\">Menu</button>\n    <button id=\"contact\">Contact</button>\n  </nav>\n</div>\n<div id=\"content\"></div>\n";
 // Exports
 module.exports = code;
 
@@ -289,6 +379,61 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_sass__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./style.sass */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/home/style.sass");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+
+      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_sass__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_sass__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_sass__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_sass__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
+
+/***/ }),
+
+/***/ "./src/navbar/style.sass":
+/*!*******************************!*\
+  !*** ./src/navbar/style.sass ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_sass__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./style.sass */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/navbar/style.sass");
 
       
       
@@ -745,7 +890,8 @@ module.exports = home
   \***************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-const menu = __webpack_require__(/*! ./menu.json */ "./src/menu/menu.json")
+// const menu = require('./menu.json')
+const menu = __webpack_require__(/*! ./menu.yaml */ "./src/menu/menu.yaml")
 const append = __webpack_require__(/*! ../append */ "./src/append.js")
 
 const div = document.createElement('div')
@@ -764,6 +910,61 @@ module.exports = div
 
 /***/ }),
 
+/***/ "./src/navbar/index.js":
+/*!*****************************!*\
+  !*** ./src/navbar/index.js ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(/*! ./style.sass */ "./src/navbar/style.sass")
+
+const home = __webpack_require__(/*! ../home/index */ "./src/home/index.js")
+const menu = __webpack_require__(/*! ../menu/index */ "./src/menu/index.js")
+const contact = __webpack_require__(/*! ../contact/index */ "./src/contact/index.js")
+
+const navbar = new Map([
+  ['#home', home],
+  ['#menu', menu],
+  ['#contact', contact],
+])
+
+const content = document.querySelector('#content')
+
+// tab switching logic
+navbar.forEach(function (value, id) {
+  const tab = document.querySelector(id)
+  tab.onclick = function () {
+    content.innerHTML = value.innerHTML
+  }
+})
+
+module.exports = navbar
+
+
+/***/ }),
+
+/***/ "./src/fonts/Norse.otf":
+/*!*****************************!*\
+  !*** ./src/fonts/Norse.otf ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "d211cb1a5b30ffaa5e5b.otf";
+
+/***/ }),
+
+/***/ "./src/fonts/Norsebold.otf":
+/*!*********************************!*\
+  !*** ./src/fonts/Norsebold.otf ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "ca3f316347ae4817c604.otf";
+
+/***/ }),
+
 /***/ "./src/home/home-isometric-eebc110218cbdb1460dd2dfc662a4e96ae94747667dc81da422804ef55cfd2d8.svg":
 /*!******************************************************************************************************!*\
   !*** ./src/home/home-isometric-eebc110218cbdb1460dd2dfc662a4e96ae94747667dc81da422804ef55cfd2d8.svg ***!
@@ -775,14 +976,25 @@ module.exports = __webpack_require__.p + "cade7bafbd8604ca4ff2.svg";
 
 /***/ }),
 
-/***/ "./src/menu/menu.json":
+/***/ "./src/odin-logo.svg":
+/*!***************************!*\
+  !*** ./src/odin-logo.svg ***!
+  \***************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "991d749280cf85d37011.svg";
+
+/***/ }),
+
+/***/ "./src/menu/menu.yaml":
 /*!****************************!*\
-  !*** ./src/menu/menu.json ***!
+  !*** ./src/menu/menu.yaml ***!
   \****************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"Deer Hamburger":"150 ALL","Deer Toast":"130 ALL","Deer Pizza":"50 ALL","Deer Doner":"180 ALL","Deer Sandwich":"180 ALL","Deer Cheesburger":"180 ALL","Deer Hotdog":"180 ALL"}');
+module.exports = JSON.parse('{"Salmon Hamburger":"150 ALL","Salmon Toast":"130 ALL","Salmon Pizza":"50 ALL","Salmon Doner":"180 ALL","Salmon Sandwich":"180 ALL","Salmon Cheesburger":"180 ALL","Salmon Hotdog":"180 ALL"}');
 
 /***/ })
 
@@ -811,6 +1023,9 @@ module.exports = JSON.parse('{"Deer Hamburger":"150 ALL","Deer Toast":"130 ALL",
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
+/******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
@@ -885,6 +1100,32 @@ module.exports = JSON.parse('{"Deer Hamburger":"150 ALL","Deer Toast":"130 ALL",
 /******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
+/******/ 	})();
+/******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
@@ -894,25 +1135,13 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__(/*! ./style.sass */ "./src/style.sass")
 
-const home = __webpack_require__(/*! ./home/index */ "./src/home/index.js")
-const menu = __webpack_require__(/*! ./menu/index */ "./src/menu/index.js")
-const contact = __webpack_require__(/*! ./contact/index */ "./src/contact/index.js")
+const body = document.getElementsByTagName('body')
 
-const navbar = new Map([
-  ['#home', home],
-  ['#menu', menu],
-  ['#contact', contact],
-])
+const toolbar = __webpack_require__(/*! ./index.html */ "./src/index.html")
 
-const content = document.querySelector('#content')
+body[0].innerHTML = toolbar
 
-// tab switching logic
-navbar.forEach(function (value, id) {
-  const tab = document.querySelector(id)
-  tab.onclick = function () {
-    content.innerHTML = value.innerHTML
-  }
-})
+const navbar = __webpack_require__(/*! ./navbar/index */ "./src/navbar/index.js")
 
 // display by default the homepage
 document.getElementById('home').click()
@@ -921,4 +1150,4 @@ document.getElementById('home').click()
 
 /******/ })()
 ;
-//# sourceMappingURL=main.js.map
+//# sourceMappingURL=bundle.js.map
