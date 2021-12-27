@@ -1,24 +1,12 @@
 require('./style.sass')
 
-const home = require('./home/index')
-const menu = require('./menu/index')
-const contact = require('./contact/index')
+const body = document.getElementsByTagName('body')
 
-const navbar = new Map([
-  ['#home', home],
-  ['#menu', menu],
-  ['#contact', contact],
-])
+const toolbar = require('./index.html')
 
-const content = document.querySelector('#content')
+body[0].innerHTML = toolbar
 
-// tab switching logic
-navbar.forEach(function (value, id) {
-  const tab = document.querySelector(id)
-  tab.onclick = function () {
-    content.innerHTML = value.innerHTML
-  }
-})
+const navbar = require('./navbar/index')
 
 // display by default the homepage
 document.getElementById('home').click()

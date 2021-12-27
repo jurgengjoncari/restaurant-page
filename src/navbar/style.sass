@@ -1,0 +1,37 @@
+$dark: rgb(53, 54, 58)
+$odin: rgb(206, 151, 62)
+$norse-font-path: "../fonts"
+
+@font-face 
+    font-family: "Norse"
+    src: url("#{$norse-font-path}/Norse.otf") format("opentype"), url("#{$norse-font-path}/Norsebold.otf") format("opentype")
+#tabs
+    button
+        padding: 5px
+        margin: 5px
+        font-size: large
+        color: white
+        border: 0
+        background-color: $dark
+        &:hover
+            cursor: pointer
+
+#content
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    flex-grow: 1
+    > div
+        background-color: $dark
+    h1
+        font-family: 'Norse'
+    a
+        color: $odin
+    // dt
+    //     text-align: center
+    // dd
+    //     text-align: center
+    //     margin-left: 0
+    address
+        text-align: center

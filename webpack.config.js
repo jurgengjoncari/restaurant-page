@@ -1,13 +1,21 @@
 const path = require('path')
+const yaml = require('yamljs')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   mode: 'development',
   entry: './src/index.js',
+  plugins: [new HtmlWebpackPlugin({ title: 'Restaurant Page' })],
   output: {
-    filename: 'main.js',
+    filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
+    clean: true,
+    // publicPath: '/',
   },
   devtool: 'source-map',
+  devServer: {
+    static: '/dist',
+  },
   module: {
     rules: [
       {
@@ -23,6 +31,17 @@ module.exports = {
         loader: 'html-loader',
         options: {
           esModule: false,
+        },
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource',
+      },
+      {
+        test: /\.yaml$/i,
+        type: 'json',
+        parser: {
+          parse: yaml.parse,
         },
       },
     ],
