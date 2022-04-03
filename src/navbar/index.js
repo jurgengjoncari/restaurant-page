@@ -10,13 +10,13 @@ const navbar = new Map([
   ['#contact', contact],
 ])
 
-const content = document.querySelector('#content')
+const main = document.querySelector('main')
 
 // tab switching logic
 navbar.forEach(function (value, id) {
   const tab = document.querySelector(id)
   tab.onclick = function () {
-    content.innerHTML = value.innerHTML
+    main.innerHTML = value.innerHTML
   }
 })
 

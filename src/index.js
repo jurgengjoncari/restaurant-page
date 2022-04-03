@@ -1,10 +1,12 @@
 require('./style.sass')
 
-const body = document.getElementsByTagName('body')
+const body = document.querySelector('body')
+
+const main = document.querySelector('main')
 
 const toolbar = require('./index.html')
 
-body[0].innerHTML = toolbar
+body.innerHTML = toolbar
 
 const navbar = require('./navbar/index')
 

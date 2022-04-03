@@ -1,6 +1,6 @@
-$dark: rgb(53, 54, 58)
+$background: #000
 $odin: rgb(206, 151, 62)
-$norse-font-path: "../fonts"
+$norse-font-path: "../assets"
 
 @font-face 
     font-family: "Norse"
@@ -12,7 +12,7 @@ $norse-font-path: "../fonts"
         font-size: large
         color: white
         border: 0
-        background-color: $dark
+        background-color: inherit
         &:hover
             cursor: pointer
 
@@ -23,7 +23,7 @@ $norse-font-path: "../fonts"
     align-items: center
     flex-grow: 1
     > div
-        background-color: $dark
+        background-color: $background
     h1
         font-family: 'Norse'
     a

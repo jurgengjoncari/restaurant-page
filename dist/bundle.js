@@ -49,13 +49,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/Norse.otf */ "./src/fonts/Norse.otf"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../fonts/Norsebold.otf */ "./src/fonts/Norsebold.otf"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/Norse.otf */ "./src/assets/Norse.otf"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/Norsebold.otf */ "./src/assets/Norsebold.otf"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n  font-family: \"Norse\";\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format(\"opentype\"), url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format(\"opentype\");\n}\n#tabs button {\n  padding: 5px;\n  margin: 5px;\n  font-size: large;\n  color: white;\n  border: 0;\n  background-color: #35363a;\n}\n#tabs button:hover {\n  cursor: pointer;\n}\n\n#content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  flex-grow: 1;\n}\n#content > div {\n  background-color: #35363a;\n}\n#content h1 {\n  font-family: \"Norse\";\n}\n#content a {\n  color: #ce973e;\n}\n#content address {\n  text-align: center;\n}", "",{"version":3,"sources":["webpack://./src/navbar/style.sass"],"names":[],"mappings":"AAIA;EACI,oBAAA;EACA,2HAAA;AAHJ;AAKI;EACI,YAAA;EACA,WAAA;EACA,gBAAA;EACA,YAAA;EACA,SAAA;EACA,yBAdD;AAWP;AAIQ;EACI,eAAA;AAFZ;;AAIA;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;AADJ;AAEI;EACI,yBAzBD;AAyBP;AACI;EACI,oBAAA;AACR;AAAI;EACI,cA5BD;AA8BP;AAII;EACI,kBAAA;AAFR","sourcesContent":["$dark: rgb(53, 54, 58)\n$odin: rgb(206, 151, 62)\n$norse-font-path: \"../fonts\"\n\n@font-face \n    font-family: \"Norse\"\n    src: url(\"#{$norse-font-path}/Norse.otf\") format(\"opentype\"), url(\"#{$norse-font-path}/Norsebold.otf\") format(\"opentype\")\n#tabs\n    button\n        padding: 5px\n        margin: 5px\n        font-size: large\n        color: white\n        border: 0\n        background-color: $dark\n        &:hover\n            cursor: pointer\n\n#content\n    display: flex\n    flex-direction: column\n    justify-content: center\n    align-items: center\n    flex-grow: 1\n    > div\n        background-color: $dark\n    h1\n        font-family: 'Norse'\n    a\n        color: $odin\n    // dt\n    //     text-align: center\n    // dd\n    //     text-align: center\n    //     margin-left: 0\n    address\n        text-align: center\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n  font-family: \"Norse\";\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format(\"opentype\"), url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format(\"opentype\");\n}\n#tabs button {\n  padding: 5px;\n  margin: 5px;\n  font-size: large;\n  color: white;\n  border: 0;\n  background-color: inherit;\n}\n#tabs button:hover {\n  cursor: pointer;\n}\n\n#content {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  flex-grow: 1;\n}\n#content > div {\n  background-color: #000;\n}\n#content h1 {\n  font-family: \"Norse\";\n}\n#content a {\n  color: #ce973e;\n}\n#content address {\n  text-align: center;\n}", "",{"version":3,"sources":["webpack://./src/navbar/style.sass"],"names":[],"mappings":"AAIA;EACI,oBAAA;EACA,2HAAA;AAHJ;AAKI;EACI,YAAA;EACA,WAAA;EACA,gBAAA;EACA,YAAA;EACA,SAAA;EACA,yBAAA;AAHR;AAIQ;EACI,eAAA;AAFZ;;AAIA;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;AADJ;AAEI;EACI,sBAzBK;AAyBb;AACI;EACI,oBAAA;AACR;AAAI;EACI,cA5BD;AA8BP;AAII;EACI,kBAAA;AAFR","sourcesContent":["$background: #000\n$odin: rgb(206, 151, 62)\n$norse-font-path: \"../assets\"\n\n@font-face \n    font-family: \"Norse\"\n    src: url(\"#{$norse-font-path}/Norse.otf\") format(\"opentype\"), url(\"#{$norse-font-path}/Norsebold.otf\") format(\"opentype\")\n#tabs\n    button\n        padding: 5px\n        margin: 5px\n        font-size: large\n        color: white\n        border: 0\n        background-color: inherit\n        &:hover\n            cursor: pointer\n\n#content\n    display: flex\n    flex-direction: column\n    justify-content: center\n    align-items: center\n    flex-grow: 1\n    > div\n        background-color: $background\n    h1\n        font-family: 'Norse'\n    a\n        color: $odin\n    // dt\n    //     text-align: center\n    // dd\n    //     text-align: center\n    //     margin-left: 0\n    address\n        text-align: center\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -82,7 +82,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "html {\n  margin: 0;\n  height: 100%;\n}\nhtml body {\n  background-color: #35363a;\n  color: white;\n  margin: 0;\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n}\nhtml body > div {\n  width: 90ch;\n  margin: auto;\n}\n\n#toolbar {\n  padding: 5px 10px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n#toolbar img {\n  height: 70px;\n}", "",{"version":3,"sources":["webpack://./src/style.sass"],"names":[],"mappings":"AACA;EACI,SAAA;EACA,YAAA;AAAJ;AACI;EACI,yBALD;EAMC,YAAA;EACA,SAAA;EACA,YAAA;EACA,aAAA;EACA,sBAAA;AACR;AAAQ;EACI,WAAA;EACA,YAAA;AAEZ;;AAAA;EACI,iBAAA;EACA,aAAA;EACA,8BAAA;EACA,mBAAA;AAGJ;AAFI;EACI,YAAA;AAIR","sourcesContent":["$dark: rgb(53, 54, 58)\nhtml\n    margin: 0\n    height: 100%\n    body\n        background-color: $dark\n        color: white\n        margin: 0\n        height: 100%\n        display: flex\n        flex-direction: column\n        > div\n            width: 90ch\n            margin: auto\n\n#toolbar\n    padding: 5px 10px\n    display: flex\n    justify-content: space-between\n    align-items: center\n    img\n        height: 70px\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* Resetting */\n/* Differences I noticed between the browsers\n * *List item of menu, in Mozilla doesn't have the indent of chrome and Edge\n * *List item of nav, in Mozilla, doesn't have a bullet (correct?)\n * *Date inputs differ a lot between three\n * *so does option */\nhtml {\n  height: 100vh;\n}\n\nbody {\n  height: 100%;\n  margin: 0 auto;\n  box-sizing: border-box;\n  font-family: system-ui, -apple-system, \"Segoe UI\", \"Roboto\", \"Ubuntu\", \"Cantarell\", \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n}\nbody * {\n  box-sizing: border-box;\n}\n\na {\n  line-height: 44px;\n}\n\n/* Content Accessibility */\np, blockquote {\n  line-height: 1.5;\n  max-width: 80ch;\n  margin: 2em 0;\n}\n\n/* Dark mode */\n/* Responsive */\n/* Table */\ntable {\n  display: block;\n  overflow: auto;\n}\n\n/* Media */\niframe, img, input, video, select, textarea {\n  height: auto;\n  max-width: 100%;\n}\n\n:where(audio, canvas, iframe, img, svg, video) {\n  vertical-align: middle;\n}\n\n/* Form */\n/* Text */\ncode, kbd, samp, pre {\n  font-family: ui-monospace, \"Menlo\", \"Consolas\", \"Roboto Mono\", \"Ubuntu Monospace\", \"Noto Mono\", \"Oxygen Mono\", \"Liberation Mono\", monospace, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n}\n\n/* My personal input */\nhtml {\n  height: 100vh;\n}\n\nbody {\n  height: 100%;\n}\n\ndl dd {\n  margin-inline-start: 44px;\n}\n\ndt {\n  font-weight: 600;\n}\n\nnav > ul {\n  list-style-type: none;\n  padding-inline-start: 0;\n}\n\nbody {\n  background-color: #000;\n  color: white;\n  display: grid;\n  grid-template-rows: 44px auto 44px;\n}\n\nnav {\n  grid-row-start: 3;\n  position: sticky;\n  bottom: 0;\n  display: flex;\n  justify-content: space-evenly;\n  background-color: rgba(22, 22, 22, 0.94);\n}", "",{"version":3,"sources":["webpack://./src/default-styles.sass","webpack://./src/style.sass"],"names":[],"mappings":"AAAA,cAAA;AACA;;;;oBAAA;AAMA;EACE,aAAA;ACAF;;ADEA;EAIE,YAAA;EACA,cAAA;EACA,sBAAA;EACA,yLAAA;ACFF;ADJE;EACE,sBAAA;ACMJ;;ADCA;EACE,iBAAA;ACEF;;ADAA,0BAAA;AAEA;EACE,gBAAA;EACA,eAAA;EACA,aAAA;ACEF;;ADAA,cAAA;AACA,eAAA;AACA,UAAA;AAEA;EACE,cAAA;EACA,cAAA;ACEF;;ADAA,UAAA;AAEA;EACE,YAAA;EACA,eAAA;ACEF;;ADAC;EACC,sBAAA;ACGF;;ADDA,SAAA;AACA,SAAA;AAEA;EACE,yNAAA;ACGF;;ADDA,sBAAA;AAEA;EACE,aAAA;ACGF;;ADDA;EACE,YAAA;ACIF;;ADFA;EACE,yBAAA;ACKF;;ADHA;EACE,gBAAA;ACMF;;ADJA;EACE,qBAAA;EACA,uBAAA;ACOF;;AAxEA;EACI,sBAHS;EAIT,YAAA;EACA,aAAA;EACA,kCAAA;AA2EJ;;AAzEA;EACI,iBAAA;EACA,gBAAA;EACA,SAAA;EAEA,aAAA;EACA,6BAAA;EACA,wCAAA;AA2EJ","sourcesContent":["/* Resetting\n/* Differences I noticed between the browsers\n *List item of menu, in Mozilla doesn't have the indent of chrome and Edge\n *List item of nav, in Mozilla, doesn't have a bullet (correct?)\n *Date inputs differ a lot between three\n *so does option\n\nhtml\n  height: 100vh\n\nbody\n  *\n    box-sizing: border-box\n\n  height: 100%\n  margin: 0 auto\n  box-sizing: border-box\n  font-family: system-ui, -apple-system, \"Segoe UI\", \"Roboto\", \"Ubuntu\", \"Cantarell\", \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"\n\na\n  line-height: 44px\n\n/* Content Accessibility\n\np, blockquote\n  line-height: 1.5\n  max-width: 80ch\n  margin: 2em 0\n\n/* Dark mode\n/* Responsive\n/* Table\n\ntable\n  display: block\n  overflow: auto\n\n/* Media\n\niframe, img, input, video, select, textarea\n  height: auto\n  max-width: 100%\n\n\\:where(audio, canvas, iframe, img, svg, video)\n  vertical-align: middle\n\n/* Form\n/* Text\n\ncode, kbd, samp, pre\n  font-family: ui-monospace, \"Menlo\", \"Consolas\", \"Roboto Mono\", \"Ubuntu Monospace\", \"Noto Mono\", \"Oxygen Mono\", \"Liberation Mono\", monospace, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"\n\n/* My personal input\n\nhtml\n  height: 100vh\n\nbody\n  height: 100%\n\ndl dd\n  margin-inline-start: 44px\n\ndt\n  font-weight: 600\n\nnav > ul\n  list-style-type: none\n  padding-inline-start: 0","@use 'default-styles'\n$background: #000\n\nbody\n    background-color: $background\n    color: white\n    display: grid\n    grid-template-rows: 44px auto 44px\n\nnav\n    grid-row-start: 3\n    position: sticky\n    bottom: 0\n    \n    display: flex\n    justify-content: space-evenly\n    background-color: rgba(22, 22, 22, 0.94)"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -310,10 +310,10 @@ module.exports = code;
 
 // Imports
 var ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___ = __webpack_require__(/*! ../node_modules/html-loader/dist/runtime/getUrl.js */ "./node_modules/html-loader/dist/runtime/getUrl.js");
-var ___HTML_LOADER_IMPORT_0___ = __webpack_require__(/*! ./odin-logo.svg */ "./src/odin-logo.svg");
+var ___HTML_LOADER_IMPORT_0___ = __webpack_require__(/*! ./assets/odin-logo.svg */ "./src/assets/odin-logo.svg");
 // Module
 var ___HTML_LOADER_REPLACEMENT_0___ = ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___(___HTML_LOADER_IMPORT_0___);
-var code = "<div id=\"toolbar\">\n  <img src=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\" />\n  <nav id=\"tabs\">\n    <button id=\"home\">Home</button>\n    <button id=\"menu\">Menu</button>\n    <button id=\"contact\">Contact</button>\n  </nav>\n</div>\n<div id=\"content\"></div>\n";
+var code = "<header id=\"toolbar\">\n  <img src=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\" />\n</header>\n<nav id=\"tabs\">\n  <button id=\"home\">Home</button>\n  <button id=\"menu\">Menu</button>\n  <button id=\"contact\">Contact</button>\n</nav>\n<main></main>\n";
 // Exports
 module.exports = code;
 
@@ -928,13 +928,13 @@ const navbar = new Map([
   ['#contact', contact],
 ])
 
-const content = document.querySelector('#content')
+const main = document.querySelector('main')
 
 // tab switching logic
 navbar.forEach(function (value, id) {
   const tab = document.querySelector(id)
   tab.onclick = function () {
-    content.innerHTML = value.innerHTML
+    main.innerHTML = value.innerHTML
   }
 })
 
@@ -943,10 +943,10 @@ module.exports = navbar
 
 /***/ }),
 
-/***/ "./src/fonts/Norse.otf":
-/*!*****************************!*\
-  !*** ./src/fonts/Norse.otf ***!
-  \*****************************/
+/***/ "./src/assets/Norse.otf":
+/*!******************************!*\
+  !*** ./src/assets/Norse.otf ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -954,14 +954,25 @@ module.exports = __webpack_require__.p + "d211cb1a5b30ffaa5e5b.otf";
 
 /***/ }),
 
-/***/ "./src/fonts/Norsebold.otf":
-/*!*********************************!*\
-  !*** ./src/fonts/Norsebold.otf ***!
-  \*********************************/
+/***/ "./src/assets/Norsebold.otf":
+/*!**********************************!*\
+  !*** ./src/assets/Norsebold.otf ***!
+  \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 module.exports = __webpack_require__.p + "ca3f316347ae4817c604.otf";
+
+/***/ }),
+
+/***/ "./src/assets/odin-logo.svg":
+/*!**********************************!*\
+  !*** ./src/assets/odin-logo.svg ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "991d749280cf85d37011.svg";
 
 /***/ }),
 
@@ -973,17 +984,6 @@ module.exports = __webpack_require__.p + "ca3f316347ae4817c604.otf";
 
 "use strict";
 module.exports = __webpack_require__.p + "cade7bafbd8604ca4ff2.svg";
-
-/***/ }),
-
-/***/ "./src/odin-logo.svg":
-/*!***************************!*\
-  !*** ./src/odin-logo.svg ***!
-  \***************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "991d749280cf85d37011.svg";
 
 /***/ }),
 
@@ -1135,11 +1135,13 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__(/*! ./style.sass */ "./src/style.sass")
 
-const body = document.getElementsByTagName('body')
+const body = document.querySelector('body')
+
+const main = document.querySelector('main')
 
 const toolbar = __webpack_require__(/*! ./index.html */ "./src/index.html")
 
-body[0].innerHTML = toolbar
+body.innerHTML = toolbar
 
 const navbar = __webpack_require__(/*! ./navbar/index */ "./src/navbar/index.js")
 

@@ -1,22 +1,17 @@
-$dark: rgb(53, 54, 58)
-html
-    margin: 0
-    height: 100%
-    body
-        background-color: $dark
-        color: white
-        margin: 0
-        height: 100%
-        display: flex
-        flex-direction: column
-        > div
-            width: 90ch
-            margin: auto
+@use 'default-styles'
+$background: #000
 
-#toolbar
-    padding: 5px 10px
+body
+    background-color: $background
+    color: white
+    display: grid
+    grid-template-rows: 44px auto 44px
+
+nav
+    grid-row-start: 3
+    position: sticky
+    bottom: 0
+    
     display: flex
-    justify-content: space-between
-    align-items: center
-    img
-        height: 70px
+    justify-content: space-evenly
+    background-color: rgba(22, 22, 22, 0.94)
