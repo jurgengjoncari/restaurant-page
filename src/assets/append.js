@@ -3,4 +3,3 @@ module.exports = function append(container, type, text) {
   element.textContent = text
   container.append(element)
 }
-

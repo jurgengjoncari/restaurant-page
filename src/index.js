@@ -1,4 +1,4 @@
-require('./style.sass')
+require('./style.scss')
 
 const body = document.querySelector('body')
 
@@ -11,4 +11,6 @@ body.innerHTML = toolbar
 const navbar = require('./navbar/index')
 
 // display by default the homepage
-document.getElementById('home').click()
+const home = document.getElementById('home')
+
+home.click()

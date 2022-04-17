@@ -1,0 +1,15 @@
+$body-bg: #000;
+$body-color: #fff;
+$primary: #ce973e;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+body {
+  min-height: 100vh;
+}
+
+nav {
+  grid-row-start: 4;
+  position: sticky;
+  bottom: 0;
+}

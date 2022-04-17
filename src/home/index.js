@@ -1,4 +1,4 @@
-require('./style.sass')
+require('./style.scss')
 
 const html = require('./index.html')
 

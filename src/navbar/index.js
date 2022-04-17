@@ -17,6 +17,7 @@ navbar.forEach(function (value, id) {
   const tab = document.querySelector(id)
   tab.onclick = function () {
     main.innerHTML = value.innerHTML
+    tab.classList.toggle('active')
   }
 })
 
